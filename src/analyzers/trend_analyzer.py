@@ -7,6 +7,9 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用宋体，支持中文
+plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
+
 class TrendAnalyzer:
     def __init__(self):
         self.data = {}
@@ -32,9 +35,9 @@ class TrendAnalyzer:
         df = pd.DataFrame(trends).T
         plt.figure(figsize=(10, 6))
         df["accuracy_trend"].plot(kind='line', marker='o')
-        plt.title("Search Accuracy Trends")
-        plt.xlabel("Keyword")
-        plt.ylabel("Accuracy (%)")
+        plt.title("搜索准确度趋势")
+        plt.xlabel("关键词")
+        plt.ylabel("准确度 (%)")
         plt.savefig(os.path.join("logs", "accuracy_trend.png"))
         plt.close()
         logger.info("Trend plot generated")

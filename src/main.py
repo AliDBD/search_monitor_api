@@ -34,4 +34,4 @@ def main():
 if __name__ == "__main__":
     main()  # 临时直接运行main
     # 如果需要调度，调用run_daily
-    run_daily(main)
+    # run_daily(main)
