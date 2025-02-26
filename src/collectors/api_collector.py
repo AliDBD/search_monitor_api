@@ -16,7 +16,7 @@ class ApiCollector:
 
     def collect_search_results(self, keyword):
         try:
-            url = f"{self.base_url}{self.endpoint}"
+            url = f"{self.base_url}{self.endpoint}"  # self.base_url 现在是"https://www.chinagoods.com"
             headers = {"Authorization": f"Bearer {self.token}"} if self.token else {}
             params = {**self.params, "q": keyword}
             response = requests.get(url, headers=headers, params=params, timeout=10)
