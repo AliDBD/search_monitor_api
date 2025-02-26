@@ -1,0 +1,6 @@
+platform_url: "https://api.example.com"
+api:
+  endpoint: "/search"
+  token: "your_token_here"
+  params:
+    limit: 100 

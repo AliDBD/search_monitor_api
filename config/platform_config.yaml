@@ -1,10 +1,17 @@
-platform_url: "www.chinagoods.com"
+platform_url: "https://www.chinagoods.com"
 api:
   endpoint: "/api/search"
   token: "your-api-token"
   params:
     page_size: 100
 keywords:
-  - 红苹果
-  - 手机
+  - 成人用品
+  - 情趣用品
+  - 手机壳
   - 运动鞋
+  - 耳机
+  - 手表
+  - 眼镜
+  - 护肤品
+  - 化妆品
+  - 护肤品
