@@ -1,4 +1,7 @@
 # src/schedulers/task_scheduler.py
+"""
+调度模块，使用apscheduler定时运行main
+"""
 from apscheduler.schedulers.blocking import BlockingScheduler
 import logging
 

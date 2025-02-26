@@ -1,3 +1,6 @@
+"""
+处理模块，评估搜索准确度和质量
+"""
 import re
 import logging
 

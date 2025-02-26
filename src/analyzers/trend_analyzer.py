@@ -1,4 +1,6 @@
-# src/analyzers/trend_analyzer.py
+"""
+分析模块，分析趋势并生成图表
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import logging

@@ -1,4 +1,7 @@
 # src/outputs/report_generator.py
+"""
+输出模块，生成报告
+"""
 import pandas as pd
 import os
 import logging
