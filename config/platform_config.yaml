@@ -1,0 +1,10 @@
+platform_url: "www.chinagoods.com"
+api:
+  endpoint: "/api/search"
+  token: "your-api-token"
+  params:
+    page_size: 100
+keywords:
+  - 红苹果
+  - 手机
+  - 运动鞋
